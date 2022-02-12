@@ -1,4 +1,5 @@
 import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/register.dart';
+import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: RegisterUser()
+      home: SignUp()
     );
   }
 }

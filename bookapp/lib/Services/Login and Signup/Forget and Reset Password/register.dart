@@ -23,7 +23,7 @@ class RegisterUser extends StatelessWidget {
             ,child: Column(
             children: [
               textFieldwidget(context: context, width: 0.9, labelText: "Username", controller: usernamecontroller, keyboardtype: TextInputType.text, maxLength: 30, validate: checkfunc),
-              phoneNumberTextFieldWidget(context: context, controller: phonecontroller, validate: phoneNumberValidator),
+              phoneNumberTextFieldWidget(context: context, controller: phonecontroller, validate: phoneNumberValidator, labelText: "Mobile Number"),
             // PasswordTextField(controller: passwordcontroller, labelText: "Password", validate:passwordValidator),
             SizedBox(height: 10,),
             Container(

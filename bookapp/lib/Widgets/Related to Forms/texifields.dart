@@ -236,7 +236,8 @@ Widget textFieldwidget({required BuildContext context,
 // Phone Number Text Field
 Widget phoneNumberTextFieldWidget({required context,required TextEditingController controller,
   //  required formFieldKey,
-    required validate,}) {
+    required validate,
+    required labelText}) {
   return Center(
     child: Container(
       width: MediaQuery.of(context).size.width * 0.9,
@@ -259,7 +260,7 @@ Widget phoneNumberTextFieldWidget({required context,required TextEditingControll
           contentPadding: EdgeInsets.only(top: 3, bottom: 3, left: 13),
             focusColor: Colors.black,
             labelStyle: TextStyle(color: Color(0xffb8c2cc)),
-            labelText: "Mobile Number",
+            labelText: labelText,
             hintText: "0321 1234 567",
             enabledBorder: OutlineInputBorder(
               borderSide: BorderSide(width: 0.5, color:Color(0xffd8d6de), ),
