@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:bookapp/Constants/constants.dart';
+import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/login.dart';
 import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/otp_for_register.dart';
 import 'package:bookapp/Widgets/Related%20to%20Forms/texifields.dart';
 import 'package:bookapp/Widgets/Related%20to%20Forms/textfield_validations.dart';
@@ -67,6 +68,7 @@ class RegisterUser extends StatelessWidget {
                             TextSpan(
                               recognizer: TapGestureRecognizer()
                                 ..onTap = () {
+                                  Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>Login()));
                                 },
                               text: "Sign In",
                               style: TextStyle(
