@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:bookapp/Constants/constants.dart';
-import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/login.dart';
-import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/otp_for_register.dart';
+import 'package:bookapp/View/Login%20and%20Signup/login.dart';
+import 'package:bookapp/View/Login%20and%20Signup/otp_for_register.dart';
 import 'package:bookapp/Widgets/Related%20to%20Forms/texifields.dart';
 import 'package:bookapp/Widgets/Related%20to%20Forms/textfield_validations.dart';
 import 'package:flutter/gestures.dart';

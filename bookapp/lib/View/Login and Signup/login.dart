@@ -1,5 +1,5 @@
 import 'package:bookapp/Constants/constants.dart';
-import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/register.dart';
+import 'package:bookapp/View/Login%20and%20Signup/register.dart';
 import 'package:bookapp/Widgets/Related%20to%20Forms/texifields.dart';
 import 'package:bookapp/Widgets/Related%20to%20Forms/textfield_validations.dart';
 import 'package:flutter/gestures.dart';

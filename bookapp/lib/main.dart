@@ -1,6 +1,6 @@
-import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/login.dart';
-import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/register.dart';
-import 'package:bookapp/Services/Login%20and%20Signup/Forget%20and%20Reset%20Password/signup.dart';
+import 'package:bookapp/View/Login%20and%20Signup/login.dart';
+import 'package:bookapp/View/Login%20and%20Signup/register.dart';
+import 'package:bookapp/View/Login%20and%20Signup/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 
