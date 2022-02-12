@@ -1,4 +1,5 @@
 import 'package:bookapp/Constants/constants.dart';
+import 'package:bookapp/View/Login%20and%20Signup/Forget%20Password/forget_password1st.dart';
 import 'package:bookapp/View/Login%20and%20Signup/register.dart';
 import 'package:bookapp/Widgets/Related%20to%20Forms/texifields.dart';
 import 'package:bookapp/Widgets/Related%20to%20Forms/textfield_validations.dart';
@@ -33,8 +34,8 @@ class Login extends StatelessWidget {
                   children: [
                     InkWell(
                         onTap: () {
-                          // Navigator.of(context).push(MaterialPageRoute(
-                          //     builder: (_) => ForgetPasswordFirst()));
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (_) => ForgetPasswordFirst()));
                         },
                         child: Text(
                           "Forget Password",

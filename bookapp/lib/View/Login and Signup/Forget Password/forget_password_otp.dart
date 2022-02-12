@@ -1,5 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:bookapp/Constants/constants.dart';
+import 'package:bookapp/View/Login%20and%20Signup/Forget%20Password/forget_password_final.dart';
 import 'package:bookapp/Widgets/Related%20to%20Forms/otp.dart';
 import 'package:flutter/material.dart';
 
@@ -63,7 +65,9 @@ var censuredPhoneNumber;
           Center(
             child: Container(
               width: MediaQuery.of(context).size.width*0.9,
-              child: otp_field(context, (){})),
+              child: otp_field(context, (){
+                Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>ForgetPassword()));
+              })),
           ),
           SizedBox(height: 10,),
           Center(
@@ -73,7 +77,7 @@ var censuredPhoneNumber;
               children: [
                 TextSpan(
                   text: "Resend",
-                  style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600, color: Color(0xff7F0E4C), fontFamily: "Montserrat-Regular"),
+                  style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600, color: primaryColor, fontFamily: "Montserrat-Regular"),
                 ),
               ]
             ),
