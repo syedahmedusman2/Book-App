@@ -46,11 +46,8 @@ showloadingDialog(message,context) {
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) {
-        return SingleChildScrollView(
-          scrollDirection: Axis.horizontal,
-          child: ProgressDialog(
-            message: "$message....Please wait",
-          ),
+        return ProgressDialog(
+          message: "$message....Please wait",
         );
       });
 }
